@@ -1,0 +1,12 @@
+[submodule "cmake"]
+	path = cmake
+	url = https://cmake.org/cmake.git
+[submodule "SDL-mirror"]
+	path = SDL-mirror
+	url = https://github.com/spurious/SDL-mirror.git
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "glew"]
+	path = glew
+	url = https://github.com/nigels-com/glew.git
