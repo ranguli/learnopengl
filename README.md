@@ -6,7 +6,7 @@
 Linux:
 
 ```
-
+git clone --recursive https://github.com/ranguli/learnopengl
 ```
 ## Dependencies
 
