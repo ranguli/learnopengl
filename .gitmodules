@@ -6,7 +6,8 @@
 	url = https://github.com/McNopper/GLUS
 [submodule "glew"]
 	path = glew
-	url = https://github.com/nigels-com/glew.git
+	url = https://github.com/ranguli/glew
 [submodule "glfw"]
 	path = glfw
-	url = https://github.com/glfw/glfw.git
+	url = https://github.com/ranguli/glfw.git
+	
