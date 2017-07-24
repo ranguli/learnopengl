@@ -7,12 +7,9 @@ Linux:
 
 ```
 git clone --recursive https://github.com/ranguli/learnopengl
+cd ./learnopengl
 
-
-cd ./glew
-make all
-sudo make install
-
+wget https://github.com/glfw/glfw/archive/3.2.1.tar.gz
 cd ../glfw
 cmake .
 make
@@ -24,7 +21,7 @@ sudo make install
 ### Ubuntu & Debian ###
 
 ```sh
- sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev cmake xorg-dev
+ sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev cmake xorg-dev dtrx
 ```
 
  _(This README was forked from: https://github.com/ranguli/readme-template)_
