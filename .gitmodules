@@ -1,15 +1,12 @@
-[submodule "cmake"]
-	path = cmake
-	url = https://github.com/Kitware/CMake
-[submodule "glfw"]
-	path = glfw
-	url = https://github.com/glfw/glfw.git
+[submodule "OpenGL"]
+	path = OpenGL
+	url = https://github.com/McNopper/OpenGL
+[submodule "GLUS"]
+	path = GLUS
+	url = https://github.com/McNopper/GLUS
 [submodule "glew"]
 	path = glew
 	url = https://github.com/nigels-com/glew.git
-[submodule "glus"]
-	path = glus
-	url = https://github.com/McNopper/GLUS
-[submodule "opengl"]
-	path = opengl
-	url = https://github.com/McNopper/OpenGL
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw.git
