@@ -1,6 +1,0 @@
-[submodule "OpenGL"]
-	path = OpenGL
-	url = https://github.com/McNopper/OpenGL.git
-[submodule "GLUS"]
-	path = GLUS
-	url = https://github.com/McNopper/GLUS.git
