@@ -7,13 +7,24 @@ Linux:
 
 ```
 git clone --recursive https://github.com/ranguli/learnopengl
+
+
+cd ./glew
+make all
+sudo make install
+
+cd ../glfw
+cmake .
+make
+sudo make install
+
 ```
 ## Dependencies
 
 ### Ubuntu & Debian ###
 
 ```sh
-apt-get install sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev cmake
+ sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libosmesa-dev cmake xorg-dev
 ```
 
  _(This README was forked from: https://github.com/ranguli/readme-template)_
