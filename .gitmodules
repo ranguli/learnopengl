@@ -1,12 +1,12 @@
 [submodule "OpenGL"]
 	path = OpenGL
-	url = https://github.com/McNopper/OpenGL
+	url = https://github.com/McNopper/OpenGL.git
 [submodule "GLUS"]
 	path = GLUS
-	url = https://github.com/McNopper/GLUS
+	url = https://github.com/McNopper/GLUS.git
 [submodule "glew"]
 	path = glew
-	url = https://github.com/ranguli/glew
+	url = https://github.com/ranguli/glew.git
 [submodule "glfw"]
 	path = glfw
 	url = https://github.com/ranguli/glfw.git
