@@ -18,7 +18,7 @@ sudo make install
 
 ```
 
-Some note-to-self reading on on the Linking processt (Including static vs. dynamic linking) [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html), [here](https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html), [here](https://stackoverflow.com/questions/15441877/how-do-i-link-object-files-in-c-fails-with-undefined-symbols-for-architecture) and [here](https://stackoverflow.com/questions/1993390/static-linking-vs-dynamic-linking)
+Some note-to-self reading on on the Linking process (Including static vs. dynamic linking) [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html), [here](https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html), [here](https://stackoverflow.com/questions/15441877/how-do-i-link-object-files-in-c-fails-with-undefined-symbols-for-architecture) and [here](https://stackoverflow.com/questions/1993390/static-linking-vs-dynamic-linking)
 ## Dependencies
 
 ### Ubuntu & Debian ###
