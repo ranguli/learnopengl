@@ -2,11 +2,10 @@
 
 
 ## Dependencies
-All depedencies are fetched and compiled with ```bootstrap.sh```. If you already have the below installed, or prefer to use different versions of these things, etc, probably don't run the bootstrap script.
-
-- SDL2
+All depedencies are included in the repo, this makes thing way easier. Currently they are:
+<!-- - SDL2 -->
 - GLFW
-- GLEW
+<!-- - GLEW -->
 
 ## Linking libraries
 One day, when this repo has a proper Makefile we won't have to talk about static vs. dynamic linking. But until that day... Apparently static linking isn't always a great idea, becuase if we link dynamically then we can swap out different versions of libraries without recompiling or changing the code. This could be important if changing the version of a library makes or breaks what we're building. 
