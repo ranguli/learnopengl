@@ -2,7 +2,7 @@
 
 
 ## Dependencies
-All depedencies are fetched and compiled with ```bootstrap.sh```. If you already have the below installed, prefer to use different versions of these things, etc, probably don't run the bootstrap script.
+All depedencies are fetched and compiled with ```bootstrap.sh```. If you already have the below installed, or prefer to use different versions of these things, etc, probably don't run the bootstrap script.
 
 - SDL2
 - GLFW
