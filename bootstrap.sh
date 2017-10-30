@@ -1,5 +1,4 @@
-mkdir bootstrap
-cd ./bootstrap
+cd ./lib
 
 wget https://www.libsdl.org/release/SDL2-2.0.7.zip
 git clone https://github.com/glfw/glfw/
