@@ -21,6 +21,11 @@
 *.tar
 *.zip
 
+lib/glfw
+lib/glad
+lib/glew
+
+
 # Logs and databases #
 ######################
 *.log
@@ -32,6 +37,9 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 CMakeFiles
+install_manifest.txt
+helloworld
+learnopengl
 
 # OS generated files #
 ######################
