@@ -7,6 +7,9 @@ All depedencies are included in the repo, this makes thing way easier. Currently
 - GLFW
 <!-- - GLEW -->
 
+## Issues
+- Right now, we can't link to glad properly. Because the glad project is on github and uses CMake, we need to add it as a git submodule and then link it with CMake. 
+
 ## Linking libraries
 One day, when this repo has a proper Makefile we won't have to talk about static vs. dynamic linking. But until that day... Apparently static linking isn't always a great idea, becuase if we link dynamically then we can swap out different versions of libraries without recompiling or changing the code. This could be important if changing the version of a library makes or breaks what we're building. 
 
