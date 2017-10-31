@@ -4,3 +4,6 @@
 [submodule "dependencies/glad"]
 	path = dependencies/glad
 	url = https://github.com/Dav1dde/glad
+[submodule "lua"]
+	path = dependencies/lua
+	url = https://github.com/LuaDist/lua/
