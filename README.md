@@ -1,7 +1,7 @@
 # learnopengl
 
 ## Getting Started
-This whole template is designed to be the _easiest_ way to start writing OpenGL code. You can begin in _three four commands!_ Tell me about it.
+This whole template is designed to be the _easiest_ way to start writing OpenGL code. You can begin in _three commands!_ Tell me about it.
 
 __1.) Clone:__ ``` git clone --recursive https://github.com/ranguli/learnopengl```
 
