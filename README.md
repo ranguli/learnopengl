@@ -3,6 +3,8 @@
 ## Getting Started
 This whole template is designed to be the _easiest_ way to start writing OpenGL code. You can begin in _three four commands!_ Tell me about it.
 
+__Prerequisite packages:__ ```git```, ```make```, ```gcc```, ```cmake```, and ```xorg-dev```
+
 __1.) Clone:__ ``` git clone --recursive https://github.com/ranguli/learnopengl```
 
 __2.) Pre-build:__ ``` cd ./learnopengl && cmake .```
