@@ -11,7 +11,7 @@ add_executable(learnopengl
 add_subdirectory(lib/glfw)
 add_subdirectory(lib/glad)
 
-find_package(Lua REQUIRED)
+find_package(Lua)
 if (LUA_FOUND)
     include_directories(${LUA_INCLUDE_DIRS})
     target_link_libraries (learnopengl ${LUA_LIBRARIES})
