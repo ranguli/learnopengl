@@ -8,8 +8,8 @@ add_executable(learnopengl
     helloworld.c
 )
 
-add_subdirectory(lib/glfw)
-add_subdirectory(lib/glad)
+add_subdirectory(dependencies/glfw)
+add_subdirectory(dependencies/glad)
 
 find_package(Lua)
 if (LUA_FOUND)
