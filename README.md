@@ -3,13 +3,23 @@
 ## Getting Started
 This whole template is designed to be the _easiest_ way to start writing OpenGL code. You can begin in _three four commands!_ Tell me about it.
 
-__Prerequisite packages:__ ```git```, ```make```, ```gcc```, ```cmake```, and ```xorg-dev```
-
 __1.) Clone:__ ``` git clone --recursive https://github.com/ranguli/learnopengl```
 
 __2.) Pre-build:__ ``` cd ./learnopengl && cmake .```
 
 __3.) Build:__ ```make ```
+
+## Dependencies
+__General:__ ```git```, ```make```, ```gcc```, and ```cmake``` are required and are easy to find yourself in your package manager.
+
+### Ubuntu
+```xorg-dev```
+
+### Fedora
+ ```libXrandr-devel``` (We can add actually add [libXrandr](https://anongit.freedesktop.org/git/xorg/lib/libXrandr.git/) as a Git submodule and compile it automatically via CMake!)
+ ```libXinerama-devel```(We can do this too!)
+
+
 
 ## Linking libraries
 Because this project uses CMake, linking libraries (that also use CMake) gets way easier (sorta.) Basically each library is linked and targeted with two lines in the ```CMakeLists.txt``` file. Even if you don't know how CMake works (I sure don't!) I encourage you to figure out which 2 lines it is - you'll learn something and you might feel like a wimp for not linking with ```gcc``` or ```make``` like a demi-god Unix (like me!)  
