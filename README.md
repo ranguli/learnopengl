@@ -32,8 +32,9 @@ If you have Lua and all the headers, CMake will link it. This is really exciting
 
 Yes! Embed a JavaScript engine into the project to call (bi-directionally) code from JS to C and vice-versa. This actually really isn't hard and requires virtually no coding on our behalf, thanks to the [Duktape](https://github.com/svaarala/duktape) project!  
 
-- (Years down the road)
-  - Things like Cython(?) code so that a Python-based server could do networking - Cython is pretty fast, and Flask / Django stuff is very scalable. No idea what Lua is like for networked programming. 
+- Networking (Years down the road)
+
+Things like Cython(?) code so that a Python-based server could do networking - Cython is pretty fast, and Flask / Django stuff is very scalable. No idea what Lua is like for networked programming. 
 
 ## Linking libraries
 Because this project uses CMake, linking libraries (that also use CMake) gets way easier (sorta.) Basically each library is linked and targeted with two lines in the ```CMakeLists.txt``` file. Even if you don't know how CMake works (I sure don't!) I encourage you to figure out which 2 lines it is - you'll learn something and you might feel like a wimp for not linking with ```gcc``` or ```make``` like a demi-god Unix (like me!)  
