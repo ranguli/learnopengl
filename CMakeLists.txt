@@ -4,18 +4,17 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-add_executable(learnopengl
-    helloworld.c
-)
-
 add_subdirectory(dependencies/glfw)
 add_subdirectory(dependencies/glad)
+add_subdirectory(dependencies/lua)
 
-find_package(Lua)
-if (LUA_FOUND)
-    include_directories(${LUA_INCLUDE_DIRS})
-    target_link_libraries (learnopengl ${LUA_LIBRARIES})
-endif (LUA_FOUND)
+set(common_include_dirs
+	${PROJECT_SOURCE_DIR}/dependencies/glfw/include
+	${PROJECT_SOURCE_DIR}/dependencies/lua
+	)
 
-target_link_libraries(learnopengl glad)
-target_link_libraries(learnopengl glfw)
+include_directoris(common_include_dirs)
+
+add_executable(learnopengl helloworld.c)
+target_link_libraries(learnopengl glad glfw lua-static)
+
