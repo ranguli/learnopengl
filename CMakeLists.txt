@@ -13,7 +13,7 @@ set(common_include_dirs
 	${PROJECT_SOURCE_DIR}/dependencies/lua
 	)
 
-include_directoris(common_include_dirs)
+include_directories(common_include_dirs)
 
 add_executable(learnopengl helloworld.c)
 target_link_libraries(learnopengl glad glfw lua-static)

@@ -21,11 +21,6 @@
 *.tar
 *.zip
 
-lib/glfw
-lib/glad
-lib/glew
-lib
-
 # Logs and databases #
 ######################
 *.log
@@ -40,6 +35,7 @@ CMakeFiles
 install_manifest.txt
 helloworld
 learnopengl
+dependencies/lua/liblua-static.a
 
 # OS generated files #
 ######################
