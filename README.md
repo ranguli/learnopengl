@@ -7,7 +7,7 @@ This whole template is designed to be the _easiest_ way to start writing OpenGL 
 ``` git clone --recursive https://github.com/ranguli/learnopengl```
 
 ### 2.) Pre-build
-``` cd ./learnopengl && cmake .```
+``` cd ./learnopengl && cmake .``` or if you're debugging get all warnings with: ```cmake -DC_MAKE_TYPE=Debug```
 
 ### 3.) Build 
 ``` make ```
