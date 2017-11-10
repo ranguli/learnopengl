@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project (learnopengl)
-set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
+SET(CMAKE_C_FLAGS_DEBUG "-Wall -Wextra -pedantic" CACHE STRING "" FORCE)
 
 add_subdirectory(dependencies/glfw)
 add_subdirectory(dependencies/glad)
