@@ -2,10 +2,10 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include "Dependencies/stbi/stb_image.h"
-#include "lua.h"
-#include "lauxlib.h"
-#include "lualib.h"
+#include "lib/stb/stb_image.h"
+#include "lib/lua/lua.h"
+#include "lib/lua/lauxlib.h"
+#include "lib/lua/lualib.h"
 
 #include <stdio.h>
 

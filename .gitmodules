@@ -1,7 +1,14 @@
-[submodule "dependencies/glfw"]
-	path = dependencies/glfw
-	url = https://github.com/glfw/glfw.git
-[submodule "dependencies/glad"]
-	path = dependencies/glad
+[submodule "lib/glfw"]
+	path = lib/glfw
+	url = https://github.com/glfw
+    branch = latest
+[submodule "lib/lua"]
+	path = lib/lua
+	url = https://github.com/LuaDist/lua/ 
+	branch = lua-5.3 
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb
+[submodule "lib/glad"]
+	path = lib/glad
 	url = https://github.com/Dav1dde/glad
-
